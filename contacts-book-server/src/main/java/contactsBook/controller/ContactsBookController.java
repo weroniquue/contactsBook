@@ -31,7 +31,7 @@ public class ContactsBookController {
 	private ContactsBookService contactsBookService;
 
 	@GetMapping("/")
-	public List<?> hello() {
+	public List<?> getAllContacts() {
 		return contactsBookService.getAllContacts();
 	}
 
